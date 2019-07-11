@@ -1,5 +1,3 @@
-# Kick_Algorithm
-
 # [LeetCode](https://leetcode.com/problemset/algorithms/) ![Language](https://img.shields.io/badge/language-Python%20%2F%20C++%2011-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md) ![Update](https://img.shields.io/badge/update-weekly-green.svg) ![Progress](https://img.shields.io/badge/progress-1111%20%2F%201111-ff69b4.svg) [![SayThanks](https://img.shields.io/badge/say-thanks-ff69f4.svg)](https://saythanks.io/to/kamyu104) ![Travis](https://travis-ci.org/kamyu104/LeetCode-Solutions.svg?branch=master)
 
 * R.I.P. to my old Leetcode repository, where there were ever `5.7k+` stars and `2.2k+` forks.  👼
@@ -8,6 +6,22 @@
 * There are new LeetCode questions every week. I'll keep updating for full summary and better solutions.
 * Thanks for starring this repository and sending thanks notes to cheer me up. I'll make this repository better and better.
 * Notes: "🔒" means you need to subscribe to [LeetCode premium membership](https://leetcode.com/subscribe/) for the access to premium questions.
+
+## Leetcode概要
+- [《算法导论》第三版中算法的C++实现](https://github.com/huaxz1986/cplusplus-_Implementation_Of_Introduction_to_Algorithms)
+- [数据结构与算法解答](https://hit-alibaba.github.io/interview/basic/algo/)
+- [Leetcode题解](https://github.com/azl397985856/leetcode)
+- ![](https://github.com/azl397985856/leetcode/raw/master/assets/leetcode-zhihu.jpg)## Leetcode概要
+- [《算法导论》第三版中算法的C++实现](https://github.com/huaxz1986/cplusplus-_Implementation_Of_Introduction_to_Algorithms)
+- [数据结构与算法解答](https://hit-alibaba.github.io/interview/basic/algo/)
+- [Leetcode题解](https://github.com/azl397985856/leetcode)
+- ![](https://github.com/azl397985856/leetcode/raw/master/assets/leetcode-zhihu.jpg)
+
+
+
+## 资料
+- MIT的教程：[Hacking a Google Interview](http://courses.csail.mit.edu/iap/interview/materials.php)
+- Leetcode的Python+C版本实现[LeetCode-Solutions](https://github.com/kamyu104/LeetCode-Solutions)，包含几乎全部leetcode题目解法
 
 ## Algorithms
 
