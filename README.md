@@ -24,6 +24,7 @@
    - [问题与解答](http://hawstein.com/2013/03/14/ctci-solutions-contents/)
    - [Python Solutions-第六版的Python求解代码](https://github.com/careercup/CtCI-6th-Edition-Python)
    - careerup的[其它版本实现](https://github.com/careercup/CtCI-6th-Edition)
+   ![](https://pic2.zhimg.com/80/54856dfde50642ddc3aa4a00da9767d9_hd.jpg)
 
 ## Algorithms
 
