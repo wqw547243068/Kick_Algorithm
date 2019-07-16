@@ -17,8 +17,13 @@
 
 
 ## 资料
+- [剑指offer的50道算法题讲解](http://hawstein.com/2019/01/22/jian-zhi-offer-algocasts-episodes/)
 - MIT的教程：[Hacking a Google Interview](http://courses.csail.mit.edu/iap/interview/materials.php)
 - Leetcode的Python+C版本实现[LeetCode-Solutions](https://github.com/kamyu104/LeetCode-Solutions)，包含几乎全部leetcode题目解法
+- [Cracking the Coding Interview 6th Ed](https://www.careercup.com/book), [第六版英文下载地址](https://leonmercanti.com/books/personal-development/Cracking%20the%20Coding%20Interview%20189%20Programming%20Questions%20and%20Solutions.pdf)，简称CtCI. 《程序员面试金典》[第五版中文下载地址](https://download.csdn.net/download/yangle20081982/9290711) 
+   - [问题与解答](http://hawstein.com/2013/03/14/ctci-solutions-contents/)
+   - [Python Solutions-第六版的Python求解代码](https://github.com/careercup/CtCI-6th-Edition-Python)
+   - careerup的[其它版本实现](https://github.com/careercup/CtCI-6th-Edition)
 
 ## Algorithms
 
