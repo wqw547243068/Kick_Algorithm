@@ -97,6 +97,80 @@ def path(chart,x,y,pathd=[]):
 print(path(charts,'a','e'))
 ```
 
+```python
+# -*- encoding:utf-8 -*-
+'''
+
+ A --> B
+ A --> C
+ B --> C
+ B --> D
+ C --> D
+ D --> C
+ E --> F
+ F --> C
+
+'''
+def find_path(graph, start, end, path=[]):
+        '寻找一条路径'
+        path = path + [start]
+        if start == end:
+            return path
+        if not graph.has_key(start):
+            return None
+        for node in graph[start]:
+            if node not in path:
+                newpath = find_path(graph, node, end, path)
+                if newpath:
+                    return newpath
+        return path
+
+def find_all_paths(graph, start, end, path=[]):
+        '查找所有的路径'
+        path = path + [start]
+        if start == end:
+            return [path]
+        if not graph.has_key(start):
+            return []
+        paths = []
+        for node in graph[start]:
+            if node not in path:
+                newpaths = find_all_paths(graph, node, end, path)
+                for newpath in newpaths:
+                    paths.append(newpath)
+        return paths
+
+def find_shortest_path(graph, start, end, path=[]):
+        '查找最短路径'
+        path = path + [start]
+        if start == end:
+            return path
+        if not graph.has_key(start):
+            return None
+        shortest = None
+        for node in graph[start]:
+            if node not in path:
+                newpath = find_shortest_path(graph, node, end, path)
+                if newpath:
+                    if not shortest or len(newpath) < len(shortest):
+                        shortest = newpath
+        return shortest
+
+#test
+
+if __name__ == '__main__':
+    graph = {'A': ['B', 'C'],
+             'B': ['C', 'D'],
+             'C': ['D'],
+             'D': ['C'],
+             'E': ['F'],
+             'F': ['C']}
+    print find_path(graph,'A','D')
+    print find_all_paths(graph,'A','D')
+    print find_shortest_path(graph,'A','D')
+```
+
+
 # 别的实现版本
 - [图的实现](https://blog.csdn.net/Liangjun_Feng/article/details/77585298)
 
