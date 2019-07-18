@@ -96,7 +96,7 @@ def path(chart,x,y,pathd=[]):
  
 print(path(charts,'a','e'))
 ```
-
+- [图的python实现-含有向图和无向图](http://www.169it.com/article/4815380975527872753.html)，代码文档解释丰富
 ```python
 # -*- encoding:utf-8 -*-
 '''
