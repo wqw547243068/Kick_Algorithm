@@ -29,6 +29,7 @@
  ![](https://pic2.zhimg.com/80/54856dfde50642ddc3aa4a00da9767d9_hd.jpg)
  
  - 【2019-07-22】[BAT技术面题目汇总](https://github.com/0voice/interview_internal_reference)
+ - [awesome-interview最全资料汇总](https://awesome-interview.github.io/Awesome-Interview/)
 
 ## LeetCode题目解答
 
