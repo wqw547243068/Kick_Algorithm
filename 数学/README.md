@@ -31,9 +31,9 @@ $$
 \int_{0}^{\pi}\frac{\theta}{2\pi}\cdot\frac{1}{\pi}{d}{\theta}=\frac{\theta^2}{4\pi^2}\Big|^\pi_0=\frac{1}{4}
 $$
 
-    <div align="center"><a href="http://www.codecogs.com/eqnedit.php?latex=\int_{0}^{\pi}\frac{\theta}{2\pi}\cdot\frac{1}{\pi}{d}{\theta}=\frac{\theta^2}{4\pi^2}\Big|^\pi_0=\frac{1}{4}"><img src="../_assets/公式_20180624211704.png" height="" /></a></div>
-
-    > [在一圆周上任意取三个点构成锐角三角形的概率是多少](https://zhidao.baidu.com/question/1884315387170029428.html) - 百度知道 
+    > [在一圆周上任意取三个点构成锐角三角形的概率是多少](https://zhidao.baidu.com/question/1884315387170029428.html)
+    
+    - 百度知道 
 
 - 拓展：球面上任取 4 个点，求这 4 个点构成的四面体包含球心的概率。
     > [【官方双语】如何优雅地解答最难数学竞赛的压轴题？](https://www.bilibili.com/video/av17275211) - bilibili 
