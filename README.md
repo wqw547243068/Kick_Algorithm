@@ -32,6 +32,6 @@
 
 ## LeetCode题目解答
 
-
+- 详见：[地址](leetcode/算法.md)
 * [Tree](https://github.com/kamyu104/LeetCode-Solutions#tree)题目
 * [Tree](https://github.com/kamyu104/LeetCode-Solutions#tree)
