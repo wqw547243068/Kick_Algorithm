@@ -129,15 +129,12 @@ Index
 
 **思路**
 - 设棍子长度为 1，断点在 `x, y`，其中 `x, y` 服从 `[0,1]` 上的均匀分布，即 `(x, y)` 为单位正方形内随机一点；
-https://github.com/imhuay/Algorithm_Interview_Notes-Chinese/raw/master/_assets/TIM%E6%88%AA%E5%9B%BE20181018151502.png
-
-    <div align="center"><img src="https://github.com/imhuay/Algorithm_Interview_Notes-Chinese/raw/master/_assets/TIM截图20181001142309.png" height="" /></div>
+- ![](https://github.com/imhuay/Algorithm_Interview_Notes-Chinese/raw/master/_assets/TIM%E6%88%AA%E5%9B%BE20181018151502.png)
 
 - 构成三角形的条件为每一段的长度都小于 `1/2`；
     - `x < y` 时，即 `x < 1/2 && y - x < 1/2`
     - `x > y` 时，即 `y < 1/2 && x - y < 1/2`
-
-        <div align="center"><img src="https://github.com/imhuay/Algorithm_Interview_Notes-Chinese/raw/master/_assets/TIM截图20181001142653.png" height="" /></div>
+    - ![](https://github.com/imhuay/Algorithm_Interview_Notes-Chinese/raw/master/_assets/TIM截图20181001142653.png)
 
 - 概率 `p = (1/8 * 2) / 1 = 1/4`
 
