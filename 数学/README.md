@@ -22,7 +22,7 @@
 
 - 简单回答：易知，当A、B、C三点都在同一个半圆内时，三角形ABC必是直角或钝角三角形；只有当三点不在同一个半圆内，才可以组成锐角三角形。于是问题等价于“在圆周上任取三个不同的点，求它们不在同一半圆内的概率”。
     - 过圆心**任取**两条直线，并在圆上**任取**一点作为点 A；
-        <div align="center"><img src="../_assets/TIM截图20181018151502.png" height="" /></div>
+    - ![](https://github.com/imhuay/Algorithm_Interview_Notes-Chinese/raw/master/_assets/TIM%E6%88%AA%E5%9B%BE20181018151502.png)
     - 接着在候选的 P1~P4 中选择 B 和 C，有四种情况：`{P1, P2}、{P1, P2}, {P2, P3}, {P3, P4}`。当且仅当选中 `{P3, P4}` 时，能够成锐角三角形（或者说包含圆心），概率为 `1/4`.
 
 - 积分计算
@@ -129,14 +129,15 @@ Index
 
 **思路**
 - 设棍子长度为 1，断点在 `x, y`，其中 `x, y` 服从 `[0,1]` 上的均匀分布，即 `(x, y)` 为单位正方形内随机一点；
+https://github.com/imhuay/Algorithm_Interview_Notes-Chinese/raw/master/_assets/TIM%E6%88%AA%E5%9B%BE20181018151502.png
 
-    <div align="center"><img src="../_assets/TIM截图20181001142309.png" height="" /></div>
+    <div align="center"><img src="https://github.com/imhuay/Algorithm_Interview_Notes-Chinese/raw/master/_assets/TIM截图20181001142309.png" height="" /></div>
 
 - 构成三角形的条件为每一段的长度都小于 `1/2`；
     - `x < y` 时，即 `x < 1/2 && y - x < 1/2`
     - `x > y` 时，即 `y < 1/2 && x - y < 1/2`
 
-        <div align="center"><img src="../_assets/TIM截图20181001142653.png" height="" /></div>
+        <div align="center"><img src="https://github.com/imhuay/Algorithm_Interview_Notes-Chinese/raw/master/_assets/TIM截图20181001142653.png" height="" /></div>
 
 - 概率 `p = (1/8 * 2) / 1 = 1/4`
 
