@@ -32,6 +32,5 @@
 
 ## LeetCode题目解答
 
-- 详见：[地址](leetcode/算法.md)
-* [Tree](https://github.com/kamyu104/LeetCode-Solutions#tree)题目
+- 详见：[地址](https://github.com/wqw547243068/DS_Algorithm/blob/master/Leetcode/%E7%AE%97%E6%B3%95.md)
 * [Tree](https://github.com/kamyu104/LeetCode-Solutions#tree)
