@@ -49,6 +49,8 @@ $$
     - 短时间可以解答
     - 会者不难
 
+[逆采样(Inverse Sampling)和拒绝采样(Reject Sampling)原理详解](https://blog.csdn.net/anshuai_aw1/article/details/84840446)
+
 RoadMap
 ---
 - [概率论基础](#概率论基础) TODO
