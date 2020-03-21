@@ -30,6 +30,7 @@
  
  - 【2019-07-22】[BAT技术面题目汇总](https://github.com/0voice/interview_internal_reference)
  - [awesome-interview最全资料汇总](https://awesome-interview.github.io/Awesome-Interview/)，[leetcode的python版本](https://github.com/HuberTRoy/leetCode)
+ - 【2019-07-31】 一套完整的学习手册帮助自己准备 Google 的面试-[Coding Interview University](https://github.com/jwasham/coding-interview-university)
 
 ## LeetCode题目解答
 
